@@ -60,7 +60,12 @@
     padding: 20px;
     margin: 0 10px;
 }
-
+.caja2 {
+    flex-grow: 1.5;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0 10px;
+}
 .fila {
     display: flex;
     margin-bottom: 10px;
