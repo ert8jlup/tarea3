@@ -1,0 +1,47 @@
+.fila1 {
+    display: grid;
+    background-color: bisque;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 40px;
+}
+.fila1>div{
+    border: 1px solid black ;
+}
+.fila2{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 66% 16.5% AUTO;
+    grid-template-rows: 40px;
+}
+.fila2>div{
+    border: 1px solid black ;
+}
+.fila3{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns:  16.5% AUTO;
+    grid-template-rows: 40px;
+}
+.fila3>div{
+    border: 1px solid black ;
+}
+.fila4{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns:  66% auto;
+    grid-template-rows: 40px;
+}
+.fila4>div {
+    border: 1px solid black ;
+}
+.fila4 .columna{
+    border: 1px solid black ;
+        display: grid;
+        grid-template-rows: 1fr 1fr; /* Divide la columna2 en dos filas */
+
+}
+.fila4 .columna>div{
+    border: 1px solid black;
+    padding: 10px;
+}
