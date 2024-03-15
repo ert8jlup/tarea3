@@ -45,3 +45,30 @@
     border: 1px solid black;
     padding: 10px;
 }
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.caja {
+    flex: 1;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.fila {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.subcaja {
+    flex: 1;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 0 5px;
+}
